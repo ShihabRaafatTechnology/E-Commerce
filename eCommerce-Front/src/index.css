@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html{
+  background-color: black;
+}
+
+
+/* =============================     Fonts        ===============================*/
+
+.darumadrop-one-regular {
+  font-family: "Darumadrop One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.alfa-slab-one-regular {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/* =============================     NAVLINK        ===============================*/
+.active {
+  color: #f05346;
+}
+/* =============================     SCROLL        ===============================*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #f05346;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

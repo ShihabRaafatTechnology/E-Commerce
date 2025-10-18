@@ -1,0 +1,143 @@
+{
+  "users": [
+    {
+      "email": "skamesl@tmg.com.eg",
+      "password": "$2a$10$fYmMQrbOt73n71c0FvNRUOB.WEYfIkLRZmq4QwgZzlTkPM6IOUZpW",
+      "firstName": "Shihab",
+      "lastName": "Raafat",
+      "id": 1
+    },
+    {
+      "email": "sraafat@tmg.com.eg",
+      "password": "$2a$10$j21ur7QrRNHmXjMnvI/3Oeq/uuWUQN5EO9S8nLm56nn72A6d8HJv2",
+      "firstName": "IT",
+      "lastName": " TMG",
+      "id": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "Classic",
+      "prefix": "men",
+      "img": "https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 2,
+      "title": "Modern",
+      "prefix": "women",
+      "img": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 3,
+      "title": "Classic",
+      "prefix": "young",
+      "img": "https://images.unsplash.com/photo-1552939100-c648a5802eb6?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 4,
+      "title": "Modern",
+      "prefix": "baby",
+      "img": "https://images.unsplash.com/photo-1541580621-cb65cc53084b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "T-shirt small size - blue",
+      "price": 249,
+      "after_price": 100,
+      "sale": 45,
+      "cat_prefix": "baby",
+      "img": "https://img.freepik.com/free-photo/full-shot-kids-posing-together_23-2149853383.jpg?t=st=1740671253~exp=1740674853~hmac=3b58506eaa6cb30dc942de528cf1ffa0de7e8875d186227e0d139b95018e8d89&w=740",
+      "max": 2
+    },
+    {
+      "id": 2,
+      "title": "Jacket XL size - green",
+      "price": 229,
+      "after_price": 80,
+      "sale": 50,
+      "cat_prefix": "baby",
+      "img": "https://img.freepik.com/free-photo/full-shot-kids-posing-together_23-2149067072.jpg?t=st=1740671106~exp=1740674706~hmac=d9dbdbb68d5864464b8e5b2000b182d0fe44e14f08b38fa0bf67a0cc231d0ee1&w=740",
+      "max": 4
+    },
+    {
+      "id": 3,
+      "title": "Balto medium size - brown",
+      "price": 200,
+      "after_price": 150,
+      "sale": 20,
+      "cat_prefix": "young",
+      "img": "https://img.freepik.com/free-photo/trendy-couple-gloomy-city_1157-14950.jpg?t=st=1740671147~exp=1740674747~hmac=ddf92fb00772dcde83b8b7a3706d4312b1e8ba92685e8d017f2032aab19a481b&w=740",
+      "max": 1
+    },
+    {
+      "id": 4,
+      "title": "Balto medium size - gray",
+      "price": 100,
+      "after_price": 30,
+      "sale": 39,
+      "cat_prefix": "men",
+      "img": "https://img.freepik.com/free-photo/portrait-handsome-fashion-stylish-hipster-model-dressed-warm-overcoat-posing-studio_158538-11452.jpg?t=st=1740670826~exp=1740674426~hmac=c486866576de61fb8d5d50904c4336cb83114aaf0a6d6a6b3fffb10cb4453a83&w=740",
+      "max": 3
+    },
+    {
+      "id": 5,
+      "title": "Shoes size 45 - white",
+      "price": 300,
+      "after_price": 230,
+      "sale": 65,
+      "cat_prefix": "men",
+      "img": "https://img.freepik.com/free-photo/fashion-portrait-young-beautiful-man_158595-3836.jpg?t=st=1740670865~exp=1740674465~hmac=363446acfef7bbc1d7ae55575d28f5495e2ef11e8744b0b1c6de9d0644537341&w=740",
+      "max": 5
+    },
+    {
+      "id": 6,
+      "title": "Jacket medium size - black",
+      "price": 300,
+      "after_price": 210,
+      "sale": 70,
+      "cat_prefix": "women",
+      "img": "https://img.freepik.com/free-photo/elegant-woman-black-hat-spring-forest_1157-35551.jpg?t=st=1740671071~exp=1740674671~hmac=d9d5c4c316d9d1bcd7541702546d452ecb0856ba8b204d7d77ef25e69df584be&w=740",
+      "max": 2
+    },
+    {
+      "id": 9,
+      "title": "Cut-off trousers small size - blue",
+      "price": 500,
+      "after_price": 430,
+      "sale": 10,
+      "cat_prefix": "women",
+      "img": "https://img.freepik.com/free-photo/portrait-fashionable-young-woman-holding-cap-hand-standing-outside-restaurant_23-2148148231.jpg?t=st=1740671098~exp=1740674698~hmac=448d561f4530e1b429df3d19b301a3884fff8ba35814784f3fa4996ad40f7544&w=740",
+      "max": 2
+    },
+    {
+      "id": 17,
+      "title": "High cool medium size - black",
+      "price": 449,
+      "after_price": 400,
+      "sale": 5,
+      "cat_prefix": "men",
+      "img": "https://img.freepik.com/free-photo/man-suit_1303-5851.jpg?t=st=1740670909~exp=1740674509~hmac=99f39ad1246d514a870d7322a3b0f3ab3abbb61889f201dd8f40b034f499d1a8&w=740",
+      "max": 1
+    },
+    {
+      "id": 18,
+      "title": "Jacket medium size - red",
+      "price": 500,
+      "after_price": 259,
+      "sale": 70,
+      "cat_prefix": "young",
+      "img": "https://img.freepik.com/free-photo/young-woman-sitting-near-by-standing-holding-hat-man_23-2148134033.jpg?t=st=1740671180~exp=1740674780~hmac=e1a67fd1f74e24c13a377384e8e9b745c43ce66c6204c4c0145dc972e68abae2&w=740",
+      "max": 5
+    }
+  ],
+  "wishlist": [
+    {
+      "userId": "1",
+      "productId": 9,
+      "id": 1
+    }
+  ]
+}
