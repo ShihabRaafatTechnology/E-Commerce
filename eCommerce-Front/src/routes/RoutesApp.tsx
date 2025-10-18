@@ -19,7 +19,7 @@ const Register = lazy(() => import('@pages/Register'));
 const Profile = lazy(()=> import('@pages/Profile'))
 const ShoppingCart = lazy(() => import('@pages/ShoppingCart'));
 const Wishlist = lazy(() => import('@pages/WishList')); 
-
+/*const Wishlist = lazy(() => import('@pages/WishList')); */
 
 const router = createBrowserRouter([
   {
